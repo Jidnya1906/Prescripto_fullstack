@@ -5,7 +5,7 @@ export const AppContext = createContext()
 
 const AppContextProvider = (props) => {
 
-    const currency = import.meta.env.VITE_CURRENCY
+    const currency = 'https://prescripto-fullstack.onrender.com'
     const backendUrl = 'https://prescripto-fullstack.onrender.com'
 
     const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
